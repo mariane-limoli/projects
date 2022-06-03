@@ -72,12 +72,12 @@ export default App;
 const style = StyleSheet.create({
     container: {
         blackgroundColor: colorGitHub,
-        flex: 100, // expandir para a tela inteira
+        flex: 1, // expandir para a tela inteira
         justifyContent: 'center',
         alignItems: 'center',
     },
 
-    content:{
+    content: {
         alignItems: 'center',
         padding: 20,
     },
@@ -102,6 +102,7 @@ const style = StyleSheet.create({
         color: colorDarkGitHub,
     },
     description:{
+        fontWeight: 'bold',
         fontSize: 14,
     },
     button:{
@@ -113,6 +114,6 @@ const style = StyleSheet.create({
     textButton:{
         fontWeight: 'bold',
         fontSize: 16,
-    }
+    },
     
 });
